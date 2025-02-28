@@ -142,15 +142,20 @@ body {
 @media (max-width: 1200px) {
    
     .cabecalho {
-        padding: 5%;
+        padding: 0%;
     }
     
     .cabecalho__menu {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
     }
 
     .cabecalho__menu__link {
         font-size: 1.2rem;
+        display: inline-block;
+        padding: 5px 15px;
     }
     .apresentacao {
         flex-direction: column-reverse;
@@ -161,20 +166,24 @@ body {
     }
 
     .apresentacao__conteudo__titulo {
-        font-size: 1.8rem;
+        font-size: 1.2rem;  
+        text-align: justify;
+    }
+    .titulo-destaque {
+        font-size: 1.5rem;
     }
 
     .apresentacao__conteudo__texto {
         font-size: 1.3rem;
-        margin-right: 10px;
+        margin-right: 0;
     }
 
     .frase__efeito {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
 
     .apresentacao__link__subtitulo {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__dos__links__redes {
@@ -183,7 +192,7 @@ body {
     }
 
     .rodape {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         padding: 16px;
     }
 
